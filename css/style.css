@@ -55,6 +55,7 @@ header ul{
 
 section{
   width: 100%;
+  height: 700px;
   margin: 0;
 }
 
@@ -64,13 +65,24 @@ figure{
 
 img{
   width: 100%;
-  height: 500px;
+  height: 400px;
   margin: 0;
+}
+
+h2, p{
+  margin: 1em 10em;
+  text-align: justify;
+  color: #50514f;
 }
 
 /*footer*/
 
 footer{
+  border-top: 1px #06a5a5 solid;
+  height: 50px;
+}
+
+footer p{
   text-align: center;
-  border-top: 3px #06a5a5 solid;
+  color: #50514f;
 }
