@@ -73,7 +73,7 @@ img{
   margin: 0;
 }
 
-h2, p{
+.home h2, .home p{
   margin: 1em 10em;
   text-align: justify;
   color: #50514f;
@@ -89,6 +89,30 @@ table, th, td {
 caption{
   margin: 1em;
   text-align: left;
+}
+
+form label{
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: right;
+    margin: 1em;
+}
+form input, textarea {
+  float: left;
+  margin: 1em;
+}
+
+input[name="number"]{
+  width: 60px;
+}
+
+textarea{
+  padding: 0.5em;
+}
+
+.contact{
+  margin: auto 20em;
 }
 
 /*footer*/
