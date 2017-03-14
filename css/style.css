@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+
+header h1{
+  color: #06a5a5;
+  font-weight: bold;
+  font-family: Helvetica,sans-serif;
+  font-size: 50px;
+  margin: 0.5em 1em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header form{
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto 10em;
+}
+
+header input{
+  border-radius: none;
+  padding: 0.4em 0.4em;
+  width: 400px;;
+}
+
+header li{
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 1em;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+header a:hover{
+  color: #5603ad;
+  text-decoration: underline;
+}
+
+header ul{
+  background: #06a5a5;
+  width: 97%;
+  height: 50px;
+  margin: 0;
+}
+
+section{
+  width: 100%;
+  margin: 0;
+}
+
+figure{
+  margin: 0;
+}
+
+img{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+}
+
+/*footer*/
+
+footer{
+  text-align: center;
+  border-top: 3px #06a5a5 solid;
+}
