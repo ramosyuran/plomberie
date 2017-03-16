@@ -102,6 +102,11 @@ table, th, td {
   padding: 1em;
 }
 
+.tarifs a{
+  color: white;
+  text-decoration: none;
+}
+
 caption{
   margin: 1em;
   text-align: left;
@@ -162,11 +167,11 @@ article figure{
   text-align: center;
 }
 
-.robinet, .tubes{
+#robinet, #tubes{
   border-bottom: 2px #f46036 solid;
 }
 
-.joints{
+#joints{
   margin: auto auto 2em auto;
 }
 
