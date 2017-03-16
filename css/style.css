@@ -1,6 +1,8 @@
 body{
   margin: 0;
   padding: 0;
+  color: #161925;
+  font-family: georgia;
 }
 
 /*header*/
@@ -42,24 +44,28 @@ header a{
 }
 
 header a:hover{
-  color: #5603ad;
+  /*color: #5603ad;*/
+  color: #f46036;
 }
 
 header ul{
   background: #06a5a5;
-  width: 97%;
   height: 50px;
   margin: 0;
 }
 
-header span{
-  color: #5603ad;
+a span{
+  color: #161925;
+  text-decoration: underline;
+}
+
+h1 span{
+  color: #f46036;
 }
 
  /*section */
-section{
-  width: 100%;
-  height: 700px;
+section .home{
+  /*height: 700px;*/
   margin: 0;
 }
 
@@ -73,15 +79,26 @@ img{
   margin: 0;
 }
 
-.home h2, .home p{
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 1em;
+}
+
+h3{
+  text-align: center;
+  margin: 1em;
+}
+
+.home p{
   margin: 1em 10em;
   text-align: justify;
-  color: #50514f;
 }
 
 table, th, td {
   border-collapse: collapse;
-  border: 1px solid #5603ad;
+  border: 1px solid #000000;
   margin: 2em;
   padding: 1em;
 }
@@ -89,18 +106,10 @@ table, th, td {
 caption{
   margin: 1em;
   text-align: left;
-}
-
-form label{
-    float: left;
-    clear: left;
-    width: 200px;
-    text-align: right;
-    margin: 1em;
-}
-form input, textarea {
-  float: left;
-  margin: 1em;
+  background: #f46036;
+  width: 18%;
+  color: white;
+  padding: 0.5em;
 }
 
 input[name="number"]{
@@ -111,8 +120,27 @@ textarea{
   padding: 0.5em;
 }
 
+h4{
+  background: #f46036;
+  color: white;
+  text-align: center;
+}
+
 .contact{
-  margin: auto;
+  margin: auto 20em;
+  text-align: justify;
+}
+
+.contact input, .contact select{
+  margin-bottom: 1em;
+}
+
+input[name="submit"]{
+  background: #f46036;
+  color: white;
+  border: 0;
+  padding: 0.5em;
+  margin: 1em auto;
 }
 
 /*footer*/
@@ -124,5 +152,4 @@ footer{
 
 footer p{
   text-align: center;
-  color: #50514f;
 }

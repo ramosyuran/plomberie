@@ -11,7 +11,7 @@
     <!-- header start -->
     <header>
 
-      <h1>Plomberie</h1>
+      <h1>Plomberie<span>-pro</span></h1>
       <form>
         <input type="search" name="search" placeholder="Rechercer.." maxlength="30">
       </form>
@@ -32,22 +32,40 @@
 
     <section class="contact">
 
-      <h1>Contacter nous:</h1>
-      <p>Retrouvez tous vos services accessibles 24h/24 et 7j/7</p>
-
+      <h2>Contacter nous</h2>
+      <h3>Retrouvez tous vos services accessibles 24h/24 et 7j/7</h3>
+      <h4>CONTACTEZ NOUS</h4>
+      <p>Notre équipe de service à la clientèle locale est toujours prête à vous aider! Si vous avez des questions sur nos produits, offres, retours et échanges - n'hésitez pas à nous appeler ou à nous envoyer un courriel</p>
+      <p>Veuillez noter que vous ne pouvez pas postuler pour un emploi via ce formulaire de contact</p>
+      <p>Les champs requis sont indiqués *.</p>
       <form>
-        <label>Nom:</label><input type="text" name="text" placeholder="votre nom" maxlength="20">
+        <label>Votre Nom *</label><br><input type="text" name="text" placeholder="votre nom" maxlength="20">
         <br>
-        <label>Prénom:</label><input type="text" name="text" placeholder="votre prenom" maxlength="20">
-        <label>Entreprise:</label><input type="text" name="text">
+        <label>Votre Prénom *</label><br><input type="text" name="text" placeholder="votre prenom" maxlength="20">
         <br>
-        <label>Email:</label> <input type="email" name="text" placeholder="exemple@domaine.xxx">
+        <label>Votre Entreprise</label><br><input type="text" name="text">
         <br>
-        <label>Prix envisagé:</label> <input type="number" name="number" placeholder="0" max="1000" min="0">
+        <label>Votre pays *</label><br><select name="pays">
+          <option>Angleterre</option>
+          <option>Allemagne</option>
+          <option>Belgique</option>
+          <option>Danemark</option>
+          <option>Espagne</option>
+          <option>Italie</option>
+          <option>Luxembourg</option>
+          <option>Portugal</option>
+          <option>Pays-Bas</option>
+          <option>Russie</option>
+          <option>Suisse</option>
+        </select>
         <br>
-        <label>Votre message:</label><textarea name="text" rows="8" cols="40" placeholder="ecrivez votre message"></textarea>
+        <label>Email *</label><br><input type="email" name="text" placeholder="exemple@domaine.xxx">
         <br>
-        <!-- <input type="submit" value="soummettre"> -->
+        <label>Prix envisagé </label><br><input type="number" name="number" placeholder="0" max="1000" min="0">
+        <br>
+        <label>Votre message *</label><br><textarea name="text" rows="8" cols="40" placeholder="ecrivez votre message"></textarea>
+        <br>
+        <input type="submit" name="submit" value="Envoyer">
       </form>
 
     </section>
