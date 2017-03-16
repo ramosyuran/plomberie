@@ -65,7 +65,6 @@ h1 span{
 
  /*section */
 section .home{
-  /*height: 700px;*/
   margin: 0;
 }
 
@@ -98,7 +97,7 @@ h2{
 
 table, th, td {
   border-collapse: collapse;
-  border: 1px solid #000000;
+  border: 1px solid #a29fa5;
   margin: 2em;
   padding: 1em;
 }
@@ -117,6 +116,11 @@ caption{
   height: 200px;
 }
 
+.produits h3{
+  margin: 1em;
+  text-decoration: underline;
+}
+
 .disc{
   display: inline-block;
   vertical-align: top;
@@ -132,10 +136,11 @@ caption{
 
 .disc button{
   background: #f46036;
-  padding: 1em;
+  padding: 0.8em;
   margin: 0.2em auto;
   color: white;
   border: none;
+  text-transform: uppercase;
 }
 
 .t{
@@ -147,7 +152,7 @@ caption{
 article figure{
   display: inline-block;
   margin: 1em;
-  border: 1px black solid;
+  border: 1px #a29fa5 solid;
   padding: 1em;
   vertical-align: top;
 }
@@ -155,6 +160,14 @@ article figure{
 .produits h1{
   text-transform: uppercase;
   text-align: center;
+}
+
+.robinet, .tubes{
+  border-bottom: 2px #f46036 solid;
+}
+
+.joints{
+  margin: auto auto 2em auto;
 }
 
 input[name="number"]{
