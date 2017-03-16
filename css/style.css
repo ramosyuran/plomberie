@@ -86,7 +86,7 @@ h2{
   margin: 1em;
 }
 
-h3{
+.contact h3{
   text-align: center;
   margin: 1em;
 }
@@ -112,6 +112,51 @@ caption{
   padding: 0.5em;
 }
 
+.produits img{
+  width: 100%;
+  height: 200px;
+}
+
+.disc{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.disc h4{
+  font-size: 25px;
+}
+
+.arial, .t{
+  font-family: arial;
+}
+
+.disc button{
+  background: #f46036;
+  padding: 1em;
+  margin: 0.2em auto;
+  color: white;
+  border: none;
+}
+
+.t{
+  font-size: 25px;
+  color: #f46036;
+  margin: 0;
+}
+
+article figure{
+  display: inline-block;
+  margin: 1em;
+  border: 1px black solid;
+  padding: 1em;
+  vertical-align: top;
+}
+
+.produits h1{
+  text-transform: uppercase;
+  text-align: center;
+}
+
 input[name="number"]{
   width: 60px;
 }
@@ -120,7 +165,7 @@ textarea{
   padding: 0.5em;
 }
 
-h4{
+.contact h4{
   background: #f46036;
   color: white;
   text-align: center;
