@@ -208,6 +208,10 @@ input, textarea{
   margin: 0.3em auto;
 }
 
+iframe{
+  margin: .5em 0 3em 0;
+}
+
 /*footer*/
 
 footer{
