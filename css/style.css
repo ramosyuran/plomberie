@@ -56,7 +56,7 @@ header ul{
 }
 
 nav a span{
-  color: black;
+  color: #161925;
 }
 
 h1 span{
@@ -106,10 +106,6 @@ table, th, td {
 
 a{
   text-decoration: none;
-}
-
-table a{
-  color: black;
 }
 
 table a:hover, .produits h3, nav a span{
