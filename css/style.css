@@ -1,3 +1,5 @@
+/*body*/
+
 body{
   margin: 0;
   padding: 0;
@@ -12,23 +14,23 @@ header h1{
   font-family: Helvetica,sans-serif;
   font-size: 50px;
   margin: 0.5em 1em;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 h1 a{
   color: #06a5a5;
 }
 
-header form{
+header h1, header form{
   display: inline-block;
   vertical-align: middle;
+}
+
+header form{
   margin: auto 10em;
 }
 
 header input{
-  border-radius: none;
-  padding: 0.4em 0.4em;
+  padding: 0.4em;
   width: 400px;;
 }
 
@@ -45,7 +47,7 @@ nav a{
   letter-spacing: 0.1em;
 }
 
-nav a:hover{
+nav a:hover, h1 span{
   color: #f46036;
 }
 
@@ -57,10 +59,6 @@ header ul{
 
 nav a span{
   color: #161925;
-}
-
-h1 span{
-  color: #f46036;
 }
 
  /*section */
@@ -79,12 +77,10 @@ text-align: center;
 }
 
 h2{
-  text-transform: uppercase;
   font-size: 22px;
-  margin: 1em;
 }
 
-.contact h3, .produits h3, caption{
+.contact h3, .produits h3, caption, h2{
   margin: 1em;
 }
 
@@ -98,10 +94,6 @@ table, th, td {
   border: 1px solid #a29fa5;
   margin: 2em;
   padding: 1em;
-}
-
-.tarifs nav a{
-  color: white;
 }
 
 a{
@@ -125,7 +117,7 @@ caption{
   height: 200px;
 }
 
-.disc{
+.disc, article figure{
   display: inline-block;
   vertical-align: top;
 }
@@ -145,7 +137,7 @@ caption{
   border: none;
 }
 
-caption a, .disc button{
+caption a, .disc button, .tarifs nav a, .contact h4{
   color: white;
 }
 
@@ -155,16 +147,22 @@ caption a, .disc button{
 }
 
 article figure{
-  display: inline-block;
   margin: 1em;
   border: 1px #a29fa5 dashed;
   padding: 1em;
-  vertical-align: top;
 }
 
-.produits h1, .disc button{
+.produits h1, .disc button, h2{
   text-transform: uppercase;
 }
+
+.produits{
+  margin: auto 2.5em;
+}
+
+ .tarifs{
+   margin: auto 1em;
+ }
 
 #robinet, #tubes{
   border-bottom: 2px #f46036 solid;
@@ -184,7 +182,6 @@ textarea{
 
 .contact h4{
   background: #f46036;
-  color: white;
 }
 
 .contact{
